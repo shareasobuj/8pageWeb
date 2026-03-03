@@ -2,47 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>8-Page Professional Website Demo</title>
+    <title>Home - My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+            background-size: cover;
+            height: 80vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-
-    <nav class="navbar">
-        <div class="logo">MyBrand</div>
-        <ul class="nav-links">
+    <nav>
+        <div class="logo">FreelancePro</div>
+        <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="pricing.html">Pricing</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="blog.html">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
 
-    <header class="hero-section">
-        <div class="hero-content">
-            <h1>Expert HTML/CSS Website Development</h1>
-            <p>We convert your Figma designs into pixel-perfect responsive websites.</p>
-            <button class="btn">Get Started</button>
-        </div>
-    </header>
-
-    <section class="services-preview">
-        <h2>Our Core Services</h2>
-        <div class="card-container">
-            <div class="card"><h3>Web Design</h3><p>Clean and modern UI/UX.</p></div>
-            <div class="card"><h3>Development</h3><p>Fast and optimized code.</p></div>
-            <div class="card"><h3>Responsive</h3><p>Works on all devices.</p></div>
-        </div>
-    </section>
+    <div class="hero">
+        <h1>Welcome to My Professional Site</h1>
+        <p>I build high-quality websites with HTML and CSS</p>
+    </div>
 
     <footer>
-        <p>&copy; 2026 MyBrand Freelance Project. All rights reserved.</p>
+        <p>&copy; 2026 Designed by YourName</p>
     </footer>
-
 </body>
 </html>
