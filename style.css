@@ -123,4 +123,12 @@ footer {
     nav ul li {
         margin: 5px;
     }
+    
+}.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* ছবি গোল করার জন্য */
+    object-fit: cover;   /* ছবি যেন চ্যাপ্টা না হয়ে যায় */
+    border: 3px solid #3498db;
+    margin-bottom: 10px;
 }
